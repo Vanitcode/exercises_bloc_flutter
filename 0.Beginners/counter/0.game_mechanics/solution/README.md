@@ -29,7 +29,7 @@ As usual, we will use a feature-driven directory structure. That means, every fe
 
 ## Counter Observer -> the BlocObserver
 
-This Widget will help us to **observe** all state changes in the application.
+This widget will help us to **observe** all state changes in the application.
 
 At `lib/counter_observer.dart`:
 ```flutter
