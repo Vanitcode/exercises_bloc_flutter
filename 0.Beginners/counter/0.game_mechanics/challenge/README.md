@@ -2,6 +2,7 @@
 
 ## What will you do
 You are going to build an app following a feature-driven directory structure like this:
+
 ![Final App](assets/videos/counter_app.gif)
 
 The feature to be developed will be a Counter capable of emitting a new state for a single integer (int) value. This Counter should be able to add and subtract a unit from the current state.
