@@ -189,12 +189,18 @@ class CounterComponent extends StatelessWidget {
 
 **Note**: aware that the generation of the list of secret numbers is not in the best place, the solution could vary in future updates.
 
-## Barrel
+## Barrels
 Let's expose our fancy components. At `lib/counter/view/view.dart`:
 ```flutter
 export 'counter_page.dart';
 export 'counter_view.dart';
 ```
+And at `lib/counter/counter.dart`:
+```flutter
+export 'cubit/counter_cubit.dart';
+export 'view/view.dart';
+```
+
 ## The App
 At `lib/app.dart`:
 ```flutter
