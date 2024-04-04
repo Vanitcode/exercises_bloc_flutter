@@ -40,7 +40,7 @@ As usually, a feature-driven structure.
 
 ## Ticker
 
-The ticker has been explained in the challenge. We just need to remember that we will expose it and we can subscribe and react to.
+The Ticker must be a stream of integer values that are periodically emitted every second. The aim of this Ticker will be exposed it and we will subscribe and react to it.
 So that, at `lib/ticker.dart`:
 ```flutter
 class Ticker {
