@@ -1,0 +1,28 @@
+name: flutter_login
+description: A new Flutter project.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  authentication_repository:
+    path: packages/authentication_repository
+  bloc: ^8.1.0
+  equatable: ^2.0.3
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.1
+  formz: ^0.6.0
+  user_repository:
+    path: packages/user_repository
+
+dev_dependencies:
+  bloc_test: ^9.0.0
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+
+flutter:
+  uses-material-design: true
